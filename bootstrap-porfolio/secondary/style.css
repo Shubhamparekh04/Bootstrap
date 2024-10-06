@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+
+/* 
+* Home page Navlink   
+ */
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #18D26E;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.5);
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}

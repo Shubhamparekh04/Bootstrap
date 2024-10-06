@@ -1,0 +1,8 @@
+Index0:
+
+1. scroll to transparent navbar
+2. hover to display block drop down
+
+Index1:
+underline with pseudo element
+
